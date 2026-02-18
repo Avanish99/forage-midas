@@ -28,7 +28,7 @@ public class UserRecord {
         return String.format("User[id=%d, name='%s', balance='%f'", id, name, balance);
     }
 
-    public Long getId() {
+    public long getId() {
         return id;
     }
 
